@@ -14,6 +14,19 @@
 		FA803150286BF79700F4299E /* MarvallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA80314F286BF79700F4299E /* MarvallyTests.swift */; };
 		FA80315A286BF79700F4299E /* MarvallyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA803159286BF79700F4299E /* MarvallyUITests.swift */; };
 		FA80315C286BF79700F4299E /* MarvallyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA80315B286BF79700F4299E /* MarvallyUITestsLaunchTests.swift */; };
+		FA803169286BF94F00F4299E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA803168286BF94F00F4299E /* SearchBar.swift */; };
+		FA803175286C311C00F4299E /* StyleFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA803174286C311C00F4299E /* StyleFont.swift */; };
+		FA80317B286C320500F4299E /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA803176286C320500F4299E /* Montserrat-Medium.ttf */; };
+		FA80317C286C320500F4299E /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA803177286C320500F4299E /* Montserrat-SemiBold.ttf */; };
+		FA80317D286C320500F4299E /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA803178286C320500F4299E /* Montserrat-Bold.ttf */; };
+		FA80317E286C320500F4299E /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA803179286C320500F4299E /* Montserrat-Light.ttf */; };
+		FA80317F286C320500F4299E /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA80317A286C320500F4299E /* Montserrat-Regular.ttf */; };
+		FA803181286C431600F4299E /* DashboardCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA803180286C431600F4299E /* DashboardCard.swift */; };
+		FA803183286D489200F4299E /* PopularEventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA803182286D489200F4299E /* PopularEventCard.swift */; };
+		FA803185286D88B200F4299E /* StyleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA803184286D88B200F4299E /* StyleColor.swift */; };
+		FA803187286D8BBC00F4299E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA803186286D8BBC00F4299E /* Helper.swift */; };
+		FA803189286D8FF500F4299E /* EventYouMightLikeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA803188286D8FF500F4299E /* EventYouMightLikeCard.swift */; };
+		FA80318B286D930400F4299E /* EventYouMightLikeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA80318A286D930400F4299E /* EventYouMightLikeCollection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,20 @@
 		FA803155286BF79700F4299E /* MarvallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvallyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA803159286BF79700F4299E /* MarvallyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvallyUITests.swift; sourceTree = "<group>"; };
 		FA80315B286BF79700F4299E /* MarvallyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvallyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA803168286BF94F00F4299E /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FA803172286C2C3A00F4299E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FA803174286C311C00F4299E /* StyleFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleFont.swift; sourceTree = "<group>"; };
+		FA803176286C320500F4299E /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		FA803177286C320500F4299E /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		FA803178286C320500F4299E /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		FA803179286C320500F4299E /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		FA80317A286C320500F4299E /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		FA803180286C431600F4299E /* DashboardCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCard.swift; sourceTree = "<group>"; };
+		FA803182286D489200F4299E /* PopularEventCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularEventCard.swift; sourceTree = "<group>"; };
+		FA803184286D88B200F4299E /* StyleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleColor.swift; sourceTree = "<group>"; };
+		FA803186286D8BBC00F4299E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		FA803188286D8FF500F4299E /* EventYouMightLikeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventYouMightLikeCard.swift; sourceTree = "<group>"; };
+		FA80318A286D930400F4299E /* EventYouMightLikeCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventYouMightLikeCollection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +121,11 @@
 		FA80313D286BF79200F4299E /* Marvally */ = {
 			isa = PBXGroup;
 			children = (
+				FA803172286C2C3A00F4299E /* Info.plist */,
+				FA80316A286C2B2000F4299E /* Themes */,
+				FA80316D286C2B3B00F4299E /* Views */,
 				FA80313E286BF79200F4299E /* MarvallyApp.swift */,
-				FA803140286BF79200F4299E /* ContentView.swift */,
+				FA803186286D8BBC00F4299E /* Helper.swift */,
 				FA803142286BF79700F4299E /* Assets.xcassets */,
 				FA803144286BF79700F4299E /* Preview Content */,
 			);
@@ -125,6 +155,57 @@
 				FA80315B286BF79700F4299E /* MarvallyUITestsLaunchTests.swift */,
 			);
 			path = MarvallyUITests;
+			sourceTree = "<group>";
+		};
+		FA80316A286C2B2000F4299E /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				FA80316B286C2B2900F4299E /* Colors */,
+				FA80316C286C2B2E00F4299E /* Fonts */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		FA80316B286C2B2900F4299E /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				FA803184286D88B200F4299E /* StyleColor.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		FA80316C286C2B2E00F4299E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA803173286C30D600F4299E /* Typefaces */,
+				FA803174286C311C00F4299E /* StyleFont.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FA80316D286C2B3B00F4299E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA803140286BF79200F4299E /* ContentView.swift */,
+				FA803168286BF94F00F4299E /* SearchBar.swift */,
+				FA803180286C431600F4299E /* DashboardCard.swift */,
+				FA803182286D489200F4299E /* PopularEventCard.swift */,
+				FA80318A286D930400F4299E /* EventYouMightLikeCollection.swift */,
+				FA803188286D8FF500F4299E /* EventYouMightLikeCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA803173286C30D600F4299E /* Typefaces */ = {
+			isa = PBXGroup;
+			children = (
+				FA803178286C320500F4299E /* Montserrat-Bold.ttf */,
+				FA803179286C320500F4299E /* Montserrat-Light.ttf */,
+				FA803176286C320500F4299E /* Montserrat-Medium.ttf */,
+				FA80317A286C320500F4299E /* Montserrat-Regular.ttf */,
+				FA803177286C320500F4299E /* Montserrat-SemiBold.ttf */,
+			);
+			path = Typefaces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +312,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA80317E286C320500F4299E /* Montserrat-Light.ttf in Resources */,
+				FA80317D286C320500F4299E /* Montserrat-Bold.ttf in Resources */,
+				FA80317F286C320500F4299E /* Montserrat-Regular.ttf in Resources */,
 				FA803146286BF79700F4299E /* Preview Assets.xcassets in Resources */,
+				FA80317B286C320500F4299E /* Montserrat-Medium.ttf in Resources */,
+				FA80317C286C320500F4299E /* Montserrat-SemiBold.ttf in Resources */,
 				FA803143286BF79700F4299E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +343,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA803183286D489200F4299E /* PopularEventCard.swift in Sources */,
 				FA803141286BF79200F4299E /* ContentView.swift in Sources */,
+				FA803181286C431600F4299E /* DashboardCard.swift in Sources */,
 				FA80313F286BF79200F4299E /* MarvallyApp.swift in Sources */,
+				FA803189286D8FF500F4299E /* EventYouMightLikeCard.swift in Sources */,
+				FA803185286D88B200F4299E /* StyleColor.swift in Sources */,
+				FA803175286C311C00F4299E /* StyleFont.swift in Sources */,
+				FA80318B286D930400F4299E /* EventYouMightLikeCollection.swift in Sources */,
+				FA803169286BF94F00F4299E /* SearchBar.swift in Sources */,
+				FA803187286D8BBC00F4299E /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +514,7 @@
 				DEVELOPMENT_TEAM = QWVAEMBXMM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Marvally/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +544,7 @@
 				DEVELOPMENT_TEAM = QWVAEMBXMM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Marvally/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
