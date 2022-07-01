@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  DashboardView.swift
 //  Marvally
 //
 //  Created by MacBook on 29/06/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DashboardView: View {
     @State private var searchText = ""
     
     var body: some View {
@@ -26,9 +26,11 @@ struct ContentView: View {
                     
                     Spacer()
                     
-                    Image(systemName: "person.circle.fill")
-                        .font(.system(size: 44))
-                        .foregroundColor(.white)
+                    Image(uiImage: UIImage(named: "Profile Picture")!)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 44, height: 44)
+                        .clipShape(Circle())
                 }
                 .padding(.bottom)
                 
@@ -63,8 +65,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct DashboardView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        DashboardView()
     }
 }

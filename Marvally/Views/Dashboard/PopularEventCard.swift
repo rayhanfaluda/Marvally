@@ -44,19 +44,18 @@ struct PopularEventCard: View {
                                 .foregroundColor(.white)
                                 .padding(.trailing, 12)
                             
-                            VStack {
-                                Button {
-                                    print("read more tapped")
-                                } label: {
+                            Button {
+                                print("read more tapped")
+                            } label: {
+                                VStack {
                                     Image(systemName: "arrow.forward.circle.fill")
                                         .font(.title)
+                                    
+                                    Text("read more")
+                                        .font(StyleFont.captionSmall)
                                 }
-                                .tint(Color(hexString: "DA5961"))
-                                
-                                Text("read more")
-                                    .font(StyleFont.captionSmall)
-                                    .foregroundColor(Color(hexString: "DA5961"))
                             }
+                            .tint(Color(hexString: "DA5961"))
                         }
                         .padding()
                     }

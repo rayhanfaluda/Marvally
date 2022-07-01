@@ -11,7 +11,8 @@ import SwiftUI
 struct MarvallyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MarvallyTabView()
+                .preferredColorScheme(.dark)
         }
     }
 }

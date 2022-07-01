@@ -35,7 +35,10 @@ struct HeroesLeaderboardsCell: View {
                 Text(universeName)
                     .font(StyleFont.universeName)
                     .foregroundColor(Color(hexString: "6B6B6B"))
+                    .offset(y: 5)
             }
+            .padding(.leading, 6)
+            .offset(y: -2.5)
             
             Spacer()
             
@@ -61,5 +64,6 @@ struct HeroesLeaderboardsCell: View {
 struct HeroesLeaderboardsCell_Previews: PreviewProvider {
     static var previews: some View {
         HeroesLeaderboardsCell(image: "Wiccan", heroName: "Wiccan", heroRealName: "William Kaplan", universeName: "Earth-616", position: "Up", positionNumber: "2")
+            .preferredColorScheme(.dark)
     }
 }
