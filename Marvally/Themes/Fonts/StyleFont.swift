@@ -25,6 +25,10 @@ class StyleFont {
         Font.custom("Montserrat-SemiBold", size: 24, relativeTo: .title2)
     }
     
+    static var customTitle3: Font {
+        Font.custom("Montserrat-Regular", size: 20, relativeTo: .title3)
+    }
+    
     static var heading1: Font {
         Font.custom("Montserrat-SemiBold", size: 18, relativeTo: .headline)
     }
@@ -81,12 +85,16 @@ class StyleFont {
         Font.custom("Montserrat-SemiBold", size: 21, relativeTo: .title3)
     }
     
-    static var signUp: Font {
+    static var heroName: Font {
         Font.custom("Montserrat-Bold", size: 17, relativeTo: .headline)
     }
     
-    static var signIn: Font {
-        Font.custom("Montserrat-Bold", size: 17, relativeTo: .headline)
+    static var heroRealName: Font {
+        Font.custom("Montserrat-Medium", size: 14, relativeTo: .footnote)
+    }
+    
+    static var universeName: Font {
+        Font.custom("Montserrat-Regular", size: 14, relativeTo: .footnote)
     }
     
     static var emoji: Font {

@@ -27,6 +27,8 @@
 		FA803187286D8BBC00F4299E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA803186286D8BBC00F4299E /* Helper.swift */; };
 		FA803189286D8FF500F4299E /* EventYouMightLikeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA803188286D8FF500F4299E /* EventYouMightLikeCard.swift */; };
 		FA80318B286D930400F4299E /* EventYouMightLikeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA80318A286D930400F4299E /* EventYouMightLikeCollection.swift */; };
+		FA999E6D286EAFD100C02A73 /* HeroesLeaderboardsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA999E6C286EAFD100C02A73 /* HeroesLeaderboardsCell.swift */; };
+		FA999E6F286ED1BB00C02A73 /* HeroesLeaderboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA999E6E286ED1BB00C02A73 /* HeroesLeaderboardRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		FA803186286D8BBC00F4299E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		FA803188286D8FF500F4299E /* EventYouMightLikeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventYouMightLikeCard.swift; sourceTree = "<group>"; };
 		FA80318A286D930400F4299E /* EventYouMightLikeCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventYouMightLikeCollection.swift; sourceTree = "<group>"; };
+		FA999E6C286EAFD100C02A73 /* HeroesLeaderboardsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesLeaderboardsCell.swift; sourceTree = "<group>"; };
+		FA999E6E286ED1BB00C02A73 /* HeroesLeaderboardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesLeaderboardRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +196,8 @@
 				FA803182286D489200F4299E /* PopularEventCard.swift */,
 				FA80318A286D930400F4299E /* EventYouMightLikeCollection.swift */,
 				FA803188286D8FF500F4299E /* EventYouMightLikeCard.swift */,
+				FA999E6E286ED1BB00C02A73 /* HeroesLeaderboardRow.swift */,
+				FA999E6C286EAFD100C02A73 /* HeroesLeaderboardsCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -347,9 +353,11 @@
 				FA803141286BF79200F4299E /* ContentView.swift in Sources */,
 				FA803181286C431600F4299E /* DashboardCard.swift in Sources */,
 				FA80313F286BF79200F4299E /* MarvallyApp.swift in Sources */,
+				FA999E6D286EAFD100C02A73 /* HeroesLeaderboardsCell.swift in Sources */,
 				FA803189286D8FF500F4299E /* EventYouMightLikeCard.swift in Sources */,
 				FA803185286D88B200F4299E /* StyleColor.swift in Sources */,
 				FA803175286C311C00F4299E /* StyleFont.swift in Sources */,
+				FA999E6F286ED1BB00C02A73 /* HeroesLeaderboardRow.swift in Sources */,
 				FA80318B286D930400F4299E /* EventYouMightLikeCollection.swift in Sources */,
 				FA803169286BF94F00F4299E /* SearchBar.swift in Sources */,
 				FA803187286D8BBC00F4299E /* Helper.swift in Sources */,

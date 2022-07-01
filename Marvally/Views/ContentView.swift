@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: true) {
-            VStack(alignment: .leading) {
+            LazyVStack(alignment: .leading) {
                 HStack {
                     VStack(alignment: .leading) {
                         Text("Welcome")
@@ -43,16 +43,8 @@ struct ContentView: View {
                     .foregroundColor(Color(hexString: "4D4D4D"))
                     .padding(.bottom, 8)
                 
-                Text("Popular Event")
-                    .font(Font(StyleFont.largeTitle))
-                    .foregroundColor(.white)
-                
                 PopularEventCard()
                     .padding(.bottom)
-                
-                Text("Events you might like")
-                    .font(StyleFont.mediumTitle)
-                    .foregroundColor(.white)
                 
                 EventYouMightLikeCollection()
                     .padding(.bottom)
@@ -60,7 +52,9 @@ struct ContentView: View {
                 Rectangle()
                     .frame(height: 1)
                     .foregroundColor(Color(hexString: "4D4D4D"))
-                    .padding(.bottom)
+                    .padding(.bottom, 8)
+                
+                HeroesLeaderboardRow()
             }
             .padding(.horizontal, 32)
             .padding(.vertical)

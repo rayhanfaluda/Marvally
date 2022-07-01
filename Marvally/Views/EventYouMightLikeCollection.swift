@@ -13,6 +13,10 @@ struct EventYouMightLikeCollection: View {
                   ["Empyre", "Empyre"]]
     
     var body: some View {
+        Text("Events you might like")
+            .font(StyleFont.mediumTitle)
+            .foregroundColor(.white)
+        
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHStack {
                 ForEach(events, id: \.self) { event in
